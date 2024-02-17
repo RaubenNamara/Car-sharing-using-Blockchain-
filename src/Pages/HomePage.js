@@ -11,12 +11,12 @@ import im2 from "../img/image4.jpg"
 function HomePage() {
   return (
     <div className="HomePage" >
-      <header className="hero" style={{ width:'100rem',marginLeft: '30rem',marginBottom:"1rem" }}>
-        <h1 className="hero-text">
+      <header className="hero" style={{ width:'20rem',marginLeft: '30rem',marginBottom:"20rem" }}>
+        <h3 className="hero-text" >
           Welcome to
-          <span> GO-CAR   </span>
-        </h1>
-        <p className="h-sub-text" >
+          <h3> GO-CAR </h3>
+        </h3>
+        <p className="h-sub-text" tyle={{ width:'20rem',marginLeft: '30rem',marginBottom:"20rem" }}>
           Have an amazing ride through smart contracts !
         </p>
         <div className="icons" >
@@ -24,7 +24,7 @@ function HomePage() {
 
           <br />
 
-          <Card bg="primary" text="white" style={{ marginLeft:'rem',width: '45rem', marginRight: '20px', marginTop: '30px',marginBottom:'3.5rem' }}>
+          <Card bg="primary" text="white" style={{ marginLeft:'0rem',width: '45rem', marginRight: '20px', marginTop: '30px',marginBottom:'3.5rem' }}>
 
             <Card.Body style={{ height: '24rem', border: "2px solid #037fff", backgroundColor: '#0b6dcf', boxShadow: "0 0 7px 3px #4d90fc", borderRadius: "4px" }}>
               <Card.Title style={{ fontSize: '35px', letterSpacing: '3px', paddingTop: '3rem', paddingLeft: '3rem' }}><b>DRIVER REGISTRATION</b></Card.Title>
@@ -38,7 +38,7 @@ function HomePage() {
 
             </Card.Body>
           </Card>
-          <Card bg="info" text="white" style={{ width: '45rem', marginLeft: '20px', marginTop: '30px',marginBottom:'3.5rem' }}>
+          <Card bg="info" text="white" style={{ width: '45rem', marginLeft: '5px', marginTop: '30px',marginBottom:'3.5rem' }}>
             <Card.Header> </Card.Header>
             <Card.Body style={{ height: '24rem', border: "2px solid #037fff", backgroundColor: '#049fca', boxShadow: "0 0 7px 3px #41d0f8", borderRadius: "4px" }}>
               <Card.Title style={{ fontSize: '35px', letterSpacing: '3px', paddingTop: '3rem', paddingLeft: '3rem' }}><b>RIDER REGISTRATION</b></Card.Title>
@@ -60,7 +60,8 @@ function HomePage() {
 
 
       <hr style={{ width: "140rem", marginLeft: "30px"}}></hr>
-      <h1 className="common-heading" style={{fontSize:'50px' ,  marginTop: '1rem', color: 'white', marginLeft: '70rem' }}>Our Team Members</h1>
+      
+      <h1 className="common-heading" style={{fontSize:'40px' ,  marginTop: '1rem', color: 'white', marginLeft: '70rem' }}>Our Team Members</h1>
 
 
       <Card bg="info" text="white" style={{ width: '65rem', marginLeft: '39rem', marginTop: '30px' }}>
@@ -105,10 +106,10 @@ function HomePage() {
 
       <div className="container" style={{ width: '161rem' }}>
 
-        <iframe className='iframe'
+  <iframe className='iframe'
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792686.6342749715!2d30.500573497324947!3d0.9465052277725764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x176c25b94a9e0175%3A0xf27b9815c1f6ea91!2sWestern%20Uganda!5e0!3m2!1sen!2sin!4v1684642202631!5m2!1sen!2sin"
-    width="1300" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-</iframe>
+    width="1300" height="1000" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
 
 
 
