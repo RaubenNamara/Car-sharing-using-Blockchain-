@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Peer-to-Peer-Car-Sharing-Using-Blockchain
 Blockchain is considered a trusted distributed ledger that ensures the decentralization and integrity of information. 
 The proposal of a decentralized P2P car-sharing system model is to secure payment authentication between Rider and Driver using blockchain to guarantee the security and integrity of information.
@@ -34,3 +35,6 @@ The proposal of a decentralized P2P car-sharing system model is to secure paymen
 
 
 
+=======
+# Car-sharing-using-Blockchain-
+>>>>>>> 0454d9e31079af85f10288c9cd56e27516609537
